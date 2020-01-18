@@ -18,7 +18,7 @@ namespace Quicksave {
           }
 
 
-          if (e.Key == Keys.F5 && e.Alt)
+          if (e.Key == Settings.GetValueKey("Key", Keys.F5) && e.Alt)
           {
               Game.ShowSaveMenu();
           }
